@@ -1,0 +1,123 @@
+body {
+    
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h1 {
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: darkred;
+    margin: 20px 0;
+}
+
+
+.banner-img {
+    width: 700px;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: auto;
+}
+
+
+.menu-food-img {
+    width: 400px;
+    height: auto;
+
+    float: right; 
+
+    border: 2px dashed brown; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-category h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.menu-category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.menu-category li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+
+.contact-info {
+    text-align: center; 
+    padding: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.contact-info li {
+    padding: 5px 0;
+}
+
+.map-link a, .back-link a {
+    display: inline-block;
+    color: darkred;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+}
